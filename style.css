@@ -84,15 +84,6 @@ body{
     100% { transform: rotate(-3deg); }
 }
 
-/* Toggle Style */
-#nav-toggler{
-    display: none;
-}
-.nav-toggler-icon{
-    display: none;
-    color: #fff;
-    font-size: 30px;
-}
 
 /* Header CSS Styles */
 .header{
@@ -331,23 +322,4 @@ footer .bg-clor{
 }
 footer .bg-clor:hover{
     color: #E02C6D;
-}
-@media only screen and (max-width:950){
-    .navigation li{
-        margin: 0;
-    }
-    .single-product{
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-    }
-    .prebook-left h1{
-        font-size: 36px;
-        
-    }
-}
-@media only screen and (max-width:550){
-    .single-product{
-        grid-template-columns: 1fr;
-
-    }
 }
